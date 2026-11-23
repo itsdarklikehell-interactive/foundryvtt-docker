@@ -2,7 +2,7 @@ name: Gource visualization
 
 on:
   push:
-    branches: [develop, master]
+    branches: [develop, master, chore/dependency-updates]
     paths-ignore:
       - "gource.mp4"
   pull_request:
